@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head1{
+    background: url('https://images.inc.com/uploaded_files/image/1920x1080/getty_664975134_414068.jpg');
+    background-position: center;
+    background-size: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 900;
+    font-size: 50px;
+}
+.input{
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 100px;
+    outline: none;
+}
+.btn1{
+    padding: 5px 8px 5px 8px;
+    border: 1px solid gray;
+    border-radius: 100px;
+    font-weight: 800;
+    background-color: coral;
+}
+
+.list-item{
+    margin-top: 2rem;
+    font-size: 2rem;
+    border: 2px solid white;
+    list-style: none;
+    width: 300px;
+    border-radius: 75px;
+    text-align: center;
+    background-color: burlywood;
+    color: black;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 15px;
+    align-items: center;
+}
